@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1490242655 source:f:\codeblocks\acm1228\main.cpp
+	<iostream>
+	<math.h>
+	<algorithm>
+	<deque>
+	<vector>
+
+1490238717 source:f:\codeblocks\acm1228\test2.cpp
+	<iostream>
+	<math.h>
+	<algorithm>
+

@@ -1,0 +1,32 @@
+Start testing: Jun 02 12:14 CST
+----------------------------------------------------------
+1/1 Testing: Test
+1/1 Test: Test
+Command: "/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/build/src/Test"
+Directory: /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/build/src
+"Test" start time: Jun 02 12:14 CST
+Output:
+----------------------------------------------------------
+Running main() from /home/lshm/CLionProjects/wav2letter2/ext_libs/arrayfire/extern/googletest/googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Array_Test
+[ RUN      ] Array_Test.tripletExists2
+(0 1 5)
+(0 2 4)
+(1 2 3)
+[       OK ] Array_Test.tripletExists2 (0 ms)
+[----------] 1 test from Array_Test (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (1 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Test" end time: Jun 02 12:14 CST
+"Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 02 12:14 CST

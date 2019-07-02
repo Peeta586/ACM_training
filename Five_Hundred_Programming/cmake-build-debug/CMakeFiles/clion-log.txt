@@ -1,0 +1,6 @@
+/home/lshm/Documents/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming
+-- Found GTest: /usr/local/lib/libgtest.a  
+-- GTest found (library: /usr/local/lib/libgtest.a include: /usr/local/include)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/cmake-build-debug

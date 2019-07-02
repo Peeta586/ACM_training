@@ -1,0 +1,7 @@
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/CMakeFiles/test.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/CMakeFiles/edit_cache.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/CMakeFiles/rebuild_cache.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/CMakeFiles/test.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/CMakeFiles/edit_cache.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/CMakeFiles/rebuild_cache.dir
+/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/CMakeFiles/Test.dir

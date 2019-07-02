@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1490268972 source:f:\codeblocks\acm2007\main.cpp
+	<iostream>
+	<math.h>
+	<algorithm>
+	<vector>
+	<cstdio>
+

@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1495443804 source:f:\codeblocks\acms\main.cpp
+	<iostream>
+	<cstdio>
+	"Partial_Sums.h"
+	"Lak_Couting.h"
+	"Mazes.h"
+	"Best_Cost_Line.h"
+
+1495336875 source:f:\codeblocks\acms\partial_sums.cpp
+
+1495338839 f:\codeblocks\acms\partial_sums.h
+
+1495342231 f:\codeblocks\acms\lak_couting.h
+	<iostream>
+
+1495351927 f:\codeblocks\acms\mazes.h
+	<iostream>
+	<queue>
+	<utility>
+
+1495442551 f:\codeblocks\acms\best_cost_line.h
+	<cstdio>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1490273692 source:f:\codeblocks\acm1113\main.cpp
+	<iostream>
+	<queue>
+	<deque>
+	<math.h>
+	<memory>
+	<algorithm>
+
