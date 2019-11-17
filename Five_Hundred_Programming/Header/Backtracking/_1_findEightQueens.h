@@ -7,19 +7,20 @@
  * queens on an NxN chessboard so that no two queens
  * threaten each other. thus,a sulution requires that no
  * two queens share the same row, column or diagonal.
- * 
+ *
  * solution:
  *  we can solve this problem with the help of backtracking.
  * the idea very simple. we start from the first row and place
  * Queen in each square of the first row and recursively explore
  * remaining rows to check if they leads to the solution or not
  * if current configuration doesn't result in a solution
- * we backtrack. before exploring any square, we ignore the square if 
+ * we backtrack. before exploring any square, we ignore the square if
  * two queens threaten each other.
  */
 
 #include <iostream>
 #include <cstring>
+
 
 using namespace std;
 
