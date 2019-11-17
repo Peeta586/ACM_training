@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/Header -isystem /usr/local/include 
+CXX_INCLUDES = -I/home/lshm/Projects/Train_Coding/Five_Hundred_Programming/Header -isystem /usr/local/include 
 

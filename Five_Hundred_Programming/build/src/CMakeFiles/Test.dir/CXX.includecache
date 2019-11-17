@@ -14,12 +14,20 @@ algorithm
 unordered_map
 -
 
-/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/Test.cpp
+../Header/Backtracking/_1_findEightQueens.h
+iostream
+-
+cstring
+-
+
+/home/lshm/Projects/Train_Coding/Five_Hundred_Programming/src/Test.cpp
 iostream
 -
 gtest/gtest.h
 -
 Array/_41_find_triplet_sum.h
+-
+Backtracking/_1_findEightQueens.h
 -
 
 /usr/local/include/gtest/gtest-death-test.h
