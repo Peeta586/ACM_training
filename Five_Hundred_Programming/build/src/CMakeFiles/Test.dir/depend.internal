@@ -3,7 +3,8 @@
 
 src/CMakeFiles/Test.dir/Test.cpp.o
  ../Header/Array/_41_find_triplet_sum.h
- /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src/Test.cpp
+ ../Header/Backtracking/_1_findEightQueens.h
+ /home/lshm/Projects/Train_Coding/Five_Hundred_Programming/src/Test.cpp
  /usr/local/include/gtest/gtest-death-test.h
  /usr/local/include/gtest/gtest-matchers.h
  /usr/local/include/gtest/gtest-message.h

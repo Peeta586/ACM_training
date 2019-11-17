@@ -1,4 +1,4 @@
-# Install script for directory: /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming
+# Install script for directory: /home/lshm/Projects/Train_Coding/Five_Hundred_Programming
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/build/src/cmake_install.cmake")
+  include("/home/lshm/Projects/Train_Coding/Five_Hundred_Programming/build/src/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lshm/Projects/Train_Coding/Five_Hundred_Programming/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

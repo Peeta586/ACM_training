@@ -1,4 +1,4 @@
-# Install script for directory: /home/lshm/CLionProjects/Train_Coding/Five_Hundred_Programming/src
+# Install script for directory: /home/lshm/Projects/Train_Coding/Five_Hundred_Programming/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
