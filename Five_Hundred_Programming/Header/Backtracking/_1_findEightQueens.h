@@ -21,10 +21,11 @@
 #include <iostream>
 #include <cstring>
 
-
 using namespace std;
 
-#define N 8
+namespace EightQueens{
+const int N  = 8;
+char mat[N][N];
 
 // function to check if two queens threaten each other or not
 bool isSafe(char mat[][N], int r, int c){
@@ -77,6 +78,6 @@ bool nQueen(char mat[][N], int r){
     }
     return true;
 }
-
-
+  
+} // namespace EightQueens
 #endif // FIND_N_QUEENS_H_

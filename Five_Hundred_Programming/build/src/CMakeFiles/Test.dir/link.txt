@@ -1,1 +1,1 @@
-/usr/bin/c++      CMakeFiles/Test.dir/Test.cpp.o  -o Test /usr/local/lib/libgtest.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a -lpthread 
+/usr/bin/c++   -std=c++11   CMakeFiles/Test.dir/Test.cpp.o  -o Test /usr/lib/libgtest.a /usr/lib/libgtest_main.a /usr/lib/libgtest.a -lpthread 

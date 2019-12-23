@@ -1,5 +1,25 @@
 cmake_minimum_required(VERSION 3.5.1)
 
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+
+# # cmakelists 设置c++11
+# include(CheckCXXCompilerFlag)
+# CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+# CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0X)
+# if(COMPILER_SUPPORTS_CXX11)
+#     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+# elseif(COMPILER_SUPPORTS_CXX0X)
+#     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++0x")
+# else()
+#     message(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
+
+# endif()
+## cmakelists 设置c++11
+
+#include(CheckCXXCompilerFlag)
+#CHECK_CXX_COMPILER_FLAG("-std=c++11" COMPILER_SUPPORTS_CXX11)
+#CHECK_CXX_COMPILER_FLAG("-std=c++0x" COMPILER_SUPPORTS_CXX0x)
+
 #add_library(ACM
 #        INTERFACE)
 #
@@ -18,7 +38,7 @@ cmake_minimum_required(VERSION 3.5.1)
 # Find GTest
 find_package(GTest)
 if (GTest_FOUND)
-    message(STATUS "GTest found (library: ${GTEST_LIBRARIES} include: ${GTEST_INCLUDE_DIRS})")
+    message(STATUS "GTest found (library: ${GTest_LIBRARIES} include: ${GTest_INCLUDE_DIRS})")
 else()
     message(STATUS "GTest not found")
     if (BUILD_TESTS)
@@ -43,6 +63,8 @@ function(build_test SRCFILE)
             PRIVATE
             ${CMAKE_SOURCE_DIR}/Header
     )
+    
+    # 参数什么意思
     add_test(${target} ${target})
 endfunction(build_test)
 
