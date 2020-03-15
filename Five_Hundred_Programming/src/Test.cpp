@@ -16,6 +16,8 @@
 #include <Backtracking/_7_FindNumPathsMaze.h>
 #include <Backtracking/_8_printAllHamiltonianPath.h>
 #include <Backtracking/_9_KcolorableConfig.h>
+#include <Backtracking/_10_FindPermutationsString.h>
+#include <Backtracking/_11_FindAllBinaryStringsWithpattern.h>
 
 int Array_Test[] = {2,7,4,0,9,5,1,3};
 
@@ -190,4 +192,20 @@ TEST(KColorableConfigTest, kColorable){
 	KColorableConfig::k,
 	0,
 	KColorableConfig::n);
+}
+
+// 10
+TEST(permutationStringTest, permutations){
+	PermuatationString::permuatation(PermuatationString::str,
+		0,
+		PermuatationString::str.size());
+	PermuatationString::permuatations2(PermuatationString::str,
+		PermuatationString::str.size(), PermuatationString::res);
+	ASSERT_TRUE(true);
+}
+
+//11
+TEST(printAllcombinationsTest, printAllcombinations){
+	printAllcombination::printAllcombinations(printAllcombination::pattern, 0);
+	ASSERT_TRUE(true);
 }

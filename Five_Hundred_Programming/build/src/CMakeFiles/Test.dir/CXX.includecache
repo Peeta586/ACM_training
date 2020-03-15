@@ -14,6 +14,16 @@ algorithm
 unordered_map
 -
 
+../Header/Backtracking/_10_FindPermutationsString.h
+iostream
+-
+algorithm
+-
+
+../Header/Backtracking/_11_FindAllBinaryStringsWithpattern.h
+stdio.h
+-
+
 ../Header/Backtracking/_1_findEightQueens.h
 iostream
 -
@@ -100,5 +110,9 @@ Backtracking/_7_FindNumPathsMaze.h
 Backtracking/_8_printAllHamiltonianPath.h
 -
 Backtracking/_9_KcolorableConfig.h
+-
+Backtracking/_10_FindPermutationsString.h
+-
+Backtracking/_11_FindAllBinaryStringsWithpattern.h
 -
 

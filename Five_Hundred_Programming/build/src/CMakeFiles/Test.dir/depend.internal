@@ -3,6 +3,8 @@
 
 src/CMakeFiles/Test.dir/Test.cpp.o
  ../Header/Array/_41_find_triplet_sum.h
+ ../Header/Backtracking/_10_FindPermutationsString.h
+ ../Header/Backtracking/_11_FindAllBinaryStringsWithpattern.h
  ../Header/Backtracking/_1_findEightQueens.h
  ../Header/Backtracking/_2_printAllKnightTours.h
  ../Header/Backtracking/_3_MagnetPuzzle.h
